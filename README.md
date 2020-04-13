@@ -2,6 +2,17 @@
 
 A proof of concept to generate wildcard certs using the Terraform ACME provider and bind them to an Azure app service site. DNS challenge is via Cloudflare.
 
+This is still a WIP.
+
+Tasks
+
+- [x] setup CF API token
+- [x] setup ACME cert
+- [ ] use pfx cert
+- [ ] import into key vault?
+- [ ] setup custom domain to app service
+- [ ] bind cert to domain
+
 ## setup
 
 ### cf
