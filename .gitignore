@@ -1,0 +1,7 @@
+*tfstate*
+out.plan
+.env
+.terraform
+.DS_Store
+*.tfvars
+!example.tfvars
